@@ -1,0 +1,199 @@
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body
+{
+  background-color: rgba(0, 0, 0, 0.95);
+}
+.navbar
+{
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  top: 0.5%;
+  
+}
+#titleoftheweb
+{
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-left: 20px;
+  margin-top: 15px;
+  color: white;
+  animation: colorpop 15s;
+  animation-iteration-count: infinite;
+}
+@keyframes colorpop {
+  0%
+  {
+    color: white;
+  }
+  25%
+  {
+    color: rgb(10, 203, 224)
+  }
+  50%
+  {
+    color: white;
+  }
+  75%
+  {
+    color: rgb(10, 203, 224)
+  }
+  100%
+  {
+    color: white;
+  }
+}
+.section
+{
+  width: 300px;
+  height: 400px;
+}
+.loginbox
+{
+  width: 500px;
+  height: 300px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  position: absolute;
+  left: 60%;
+  top: 32%;
+  border: 2px solid white;
+}
+.signupbox
+{
+  width: 500px;
+  height: 380px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  position: absolute;
+  left: 60%;
+  top: 27%;
+  border: 2px solid white;
+}
+.together
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+#loginpng
+{
+  width: 190px;
+  position: relative;
+  left: 47%;
+
+}
+.loginemail
+{
+  position: relative;
+  left: 10%;
+  width: 190px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: black;
+}
+.signupname
+{
+  position: relative;
+  left: 9%;
+  width: 190px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: black;
+}
+.loginpassword
+{
+  position: relative;
+  left: 1%;
+  width: 190px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: black;
+}
+.submitlogin
+{
+  position: relative;
+  left: 34%;
+  margin-top: 20px;
+  width: 130px;
+  height: 40px;
+  padding: 0;
+  text-align: center;
+  background-color: rgb(10, 203, 224);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 450ms;
+}
+.submitlogin:hover
+{
+ 
+  border: 1px solid white;
+  transform: scale(1.15);
+}
+.submitlogin1
+{
+  position: relative;
+  left: 123%;
+  margin-top: 20px;
+  width: 170px;
+  height: 50px;
+  padding: 0;
+  text-align: center;
+  background-color: rgb(10, 203, 224);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 450ms;
+}
+.submitlogin1:hover
+{
+  border: 1px solid white;
+  transform: scale(1.15);
+}
+.imageside
+{
+  position: relative;
+  left: 8%;
+}
+.buttons
+{
+  position: absolute;
+  left: 50%;
+  display: flex;
+  gap: 10%;
+  width: 300px;
+  transform: translate(-45%);
+}
+.button1
+{
+  width: 130px;
+  background-color: rgb(10, 203, 224);
+  color: white;
+}
+.group
+{
+  position: relative;
+  left: 5%;
+  margin-top: 10px;
+}
