@@ -5,6 +5,7 @@ import Signuup from './Signuup';
 import Mainpage from './Mainpage'
 import Enterdetails from './Enterdetails'
 import Documentsupload from './Documentsupload'
+import Livecamera from './Livecamera';
 import Nav from './Nav';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path='/Mainpage' element={<Mainpage />} />
         <Route path='/Enterdetails' element={<Enterdetails />} />
         <Route path='/Documentsupload' element={<Documentsupload />} />
+        <Route path='/Livecamera' element={<Livecamera />} />
       </Routes>
     </Router>
   );

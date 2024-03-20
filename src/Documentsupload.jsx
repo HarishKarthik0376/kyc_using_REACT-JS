@@ -116,7 +116,10 @@ function Documentsupload() {
                     </div>
                 </div>
             </div>
-            <button  id="continuetonextbtn">Next Step</button>
+            <button  onClick={() =>
+            {
+              navigate("/Livecamera");
+            }}  id="continuetonextbtn">Next Step</button>
         </div>
   </>
   )
