@@ -29,7 +29,7 @@ function Mainpage() {
         <button onClick={() =>
         {
             navigate("/Enterdetails");
-        }} className='submitlogin1' id='startkyc'>Start KYC Verification</button>
+        }} className='submitlogin1' id='startkyc'>Start Kyc Verification</button>
     </div>
     </>
   )
